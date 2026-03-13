@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swo
+*.swp
+
+# Project
+storage/database/*.sqlite
+storage/projects/*
+storage/builds/*
+!storage/projects/.gitkeep
+!storage/builds/.gitkeep
+
+# Builds
+*.apk
+*.zip
+*.tar.gz
+
+# Android
+*.iml
+.gradle/
+local.properties
+build/
+.cxx
